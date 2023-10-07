@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+
+:root{
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+
+    --Verydarkbluemain: hsl(217, 54%, 11%);
+    --Verydarkbluecard: hsl(216, 50%, 16%);
+    --Verydarkblueline: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    font-size: 14px;
+    background-color: var(--Verydarkbluemain);
+}
+
+
+.card{
+    width: 300px;
+    background-color: var(--Verydarkbluecard);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    padding:1em;
+    border-radius: 25px;
+
+}
+
+.front-img img{
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.front-img div{
+    width: 300px;
+    cursor: pointer;
+    img-op
+}
+.front-img div img{
+    width: 10%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.front-img div img:hover{
+    opacity: 1;
+    
+}
+
+
+
+.tittle{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+.tittle:hover{
+    color: var(--Cyan);
+}
+
+.description{
+    color: darkgray;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 1.2em;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    padding-bottom: 1em;
+}
+
+
+.price-eth{
+    display:flex;
+    justify-content: space-between;
+    color: var(--Cyan);
+    font-size: 15px;
+    align-items: centerl
+
+}
+
+.day-le{
+    padding-left: 5em;
+    color: grey;
+    display: flex;
+    vertical-align: middle;
+}
+
+.day-le img{
+    height: 25PX;
+}
+
+.days-left{
+    padding-left: 0.3em;
+}
+
+.nilai-eth{
+    padding-left: 0.5em;
+}
+
+
+.creator{
+    display: flex;
+    align-items: center;
+    padding-top: 0.5em;
+    color: darkgray;
+    font-size: 15px
+   
+}
+
+.creator img{
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 0.5em;
+}
+
+.creator .creation{
+    color: white;
+    padding-left: 0.1em;
+    cursor: pointer;
+
+}
+
+.creation:hover{
+    color: var(--Cyan);
+}
+.attribution{
+    color: beige;
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+}
+
+
+
+
+
